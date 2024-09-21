@@ -68,7 +68,7 @@ def draw_age_gender(pv_boxes, image):
             gender = "vehicle"
             box_color = (0, 200, 200)
         else:
-            gender = "car"
+            gender = "unkown"
             box_color = (200, 200, 200)
         
        #--- age and gender ---
