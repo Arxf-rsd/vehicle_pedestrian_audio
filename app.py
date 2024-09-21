@@ -21,13 +21,13 @@ def play_video(video_source):
             break
 
 st.set_page_config(
-    page_title="Age/Gender/Emotion",
+    page_title="Vehicle Detection",
     page_icon=":sun_with_face:",
     layout="centered",
     initial_sidebar_state="expanded")
 
 
-st.title("Age/Gender/Emotion :sun_with_face:")
+st.title("Vehicle Detection :sun_with_face:")
 
 st.sidebar.header("Type")
 source_radio = st.sidebar.radio("Select Source",["IMAGE", "VIDEO", "WEBCAM"])
